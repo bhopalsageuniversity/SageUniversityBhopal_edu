@@ -1,0 +1,152 @@
+
+.text2 {
+    font-size: 69px !important;
+    font-weight: 700 !important;
+}
+
+.bhngh {
+    background-color: #af1414;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    font-size: 21px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.bhngh:hover {
+    background-color: #f5c072;
+    color: black;
+    border: none;
+    font-size: 21px;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+span.carousel-control-next-icon,
+span.carousel-control-prev-icon {
+    color: white !important;
+    background: #000000d7;
+    border-radius: 30px;
+    font-size: 20px;
+   
+    margin-top: -30px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Lora', serif;
+}
+.bg1{
+  
+    background-image:url(imgs/SAGE-university-bhopal-open-theater.webp) ;
+ 
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0px 10px 0px;
+    padding: 200px 0px 200px 0px;
+}
+.box1{
+    float: right;
+}
+.whyamit{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+}
+.text11{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0px 0px 0px 40px;
+}
+.text112{
+font-size: 20px;
+text-align: right;
+}
+.nom{
+    font-size: 60px;
+    font-weight: 700;
+    margin: -12px 0px 0px 10px;
+}
+.box122{
+    padding: 0px 80px 0px 0px;
+}
+.btn78{
+    background-color: #af141400;
+    border: 2px solid white;
+font-size: 20px;
+    color: white;
+    padding: 12px 30px;
+    
+}
+.btn78:hover{
+    background-color: #af1414;
+    border: 2px solid rgba(255, 255, 255, 0);
+
+    color: white;
+    padding: 12px 30px;
+    
+}
+.bordefd{
+    border-left: 1px solid white;
+margin: 0px 0px 0px 0px;
+}
+.img-respopnsive{
+    width: 55% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ padding: 0px 0px 0px 0px;
+    
+
+}
+.bg4{
+    background-color: #af141477;
+    padding: 0px 0px;
+}
+.bg33{
+    background-color: #0000007c;
+    padding: 30px 0px 30px 0px;
+}
+.bg343{
+    background-color: #0000007c;
+    padding: 10px 0px 0px 0px;
+}
+.bg333{
+
+    padding: 30px 0px 30px 0px;
+}
+.bg3334{
+
+    padding: 20px 0px 20px 0px;
+}
+.botmu{
+    color: rgb(0, 0, 0);
+    padding: 10px 70px 10px 70px;
+    font-weight: 700;
+
+    text-align: center !important;
+}
+.botmu:hover{
+    color: white;
+    padding: 10px 70px 10px 70px;
+    text-align: center !important;
+}
+
+.navb23 {
+    background-color: #070707;
+    padding: 15px 10px;
+    color: white;
+    text-align: center;
+}
+
+.navb71 {
+    background-color: #ddab21;
+    padding: 15px 10px;
+}
