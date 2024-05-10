@@ -8,22 +8,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous">
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"
             href="https://fontawesome.com/icons/servicestack?f=brands&s=solid">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<!-- <link rel="stylesheet" href="css/aos-master/aos-master/dist/aos.css">
+
+<script src="css/aos-master/aos-master/dist/aos.js"></script> -->
+
+        <link rel="stylesheet" href="css/indexmediq.css">
         <link rel="stylesheet" href="comm/topbar.css">
         <link rel="stylesheet" href="comm/header.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="comm/footer.css">
-
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="css/card.css">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js">
+          
+        </script>
         <style>
     .bg1 {
 
@@ -31,8 +40,8 @@
         color: white;
         background-size: cover;
         background-position: center;
-
-        padding: 0px 0px 0px 0px;
+        /* height: 100vh!important; */
+       
     }
 
     .bgimg {
@@ -42,12 +51,50 @@
         background-position: center;
 
         padding: 250px 0px 200px 160px;
+    
     }
+    .bg8{
+        background-image: url(imgs/sage-university-bhopal.webp);
+        /* padding: 10px 0px 0px 0px; */
+/* height: 100vh!important; */
+background-repeat: no-repeat;
+background-size: cover;
+padding:4% 0px!important;
+
+    }
+    .bg7{
+        background-image: url(imgs/INTERNATIONAL.webp);
+        background-color: #f4f2f234;
+
+background-repeat: no-repeat !important;
+background-size: cover !important;
+/* background-position: 10% 90% !important; */
+/* height:100vh !important; */
+padding: 10% 0px;
+justify-content: center !important;
+  align-items: center !important;
+  
+
+    }
+    .bg6{
+       
+        padding:6% 0px!important;
+    }
+    .bg66{
+       /* height: 100vh; */
+    
+padding: 10% 0% !important;
+
+ 
+       /* padding: 50px 0px 70px 0px !important; */
+   }
     </style>
     </head>
 
-    <body> <div class='fixed-top'>
+    <body>
+     <div class='fixed-top'>
             <div class="container-fluid">
+
                 <div className='navb22' style="  background-color: #af1414;">
                     <div class>
                         <div class="row rowdes">
@@ -112,12 +159,12 @@
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
-                                        <li><a class="dropdown-item"
+                                        <li><a class="dropdown-item drop111"
                                                 href="#">Student Login</a></li>
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
-                                        <li><a class="dropdown-item"
+                                        <li><a class="dropdown-item drop111"
                                                 href="#">Staff Login</a></li>
                                     </ul>
                                 </div>
@@ -139,7 +186,7 @@
 
                                         <a href class="link2"> Event</a>
                                         <a href class="link2"> Contact US</a>
-                                        <!-- Example single danger button -->
+
                                         <div class="btn-group mb-2">
                                             <a href
                                                 class="dropdown-toggle link2"
@@ -488,7 +535,7 @@
                 </nav>
 
                 <button class="menu-button" id="menu-button">
-                    <!-- <i class="bi bi-list"></i>   -->
+                   
                     <i class="fa fa-bars"
                         style="font-size:26px;color:#af1318;margin-left:5px;"></i>
                 </button>
@@ -779,10 +826,11 @@
                         <h1 class='text2'>Navigating Success <br>On <span
                                 style="color:#af1318;"> Strategy
                                 at a <br> Time Life</span> </h1>
-                        <p>We have been operating for over a decade, providing
+                        <p class="text34">We have been operating for over a decade, providing
                             top-notch our <br> clients and building
                             a strong track record in the industry.</p>
-                        <button class="bhngh">
+                        <button class="bhngh" data-aos="fade-up"
+                            data-aos-duration="2000">
                             Contact Us
                         </button>
                     </div>
@@ -793,10 +841,11 @@
                         <h1 class='text2'>Navigating Success <br>On <span
                                 style="color:#af1318;"> Strategy
                                 at a <br> Time Life</span> </h1>
-                        <p>We have been operating for over a decade, providing
+                        <p class="text34">We have been operating for over a decade, providing
                             top-notch our <br> clients and building
                             a strong track record in the industry.</p>
-                        <button class="bhngh">
+                        <button class="bhngh" data-aos="fade-up"
+                            data-aos-duration="2000">
                             Contact Us
                         </button>
                     </div>
@@ -806,10 +855,11 @@
                         <h1 class='text2'>Navigating Success <br>On <span
                                 style="color:#af1318;"> Strategy
                                 at a <br> Time Life</span> </h1>
-                        <p>We have been operating for over a decade, providing
+                        <p class="text34">We have been operating for over a decade, providing
                             top-notch our <br> clients and building
                             a strong track record in the industry.</p>
-                        <button class="bhngh">
+                        <button class="bhngh" data-aos="fade-up"
+                            data-aos-duration="2000">
                             Contact Us
                         </button>
                     </div>
@@ -833,8 +883,8 @@
             </button>
         </div>
 
-        <div class="bg1" style>
-            <div class="container-fluid">
+        <section class="intr container-fluid bg1">
+            <div class="content1 ">
                 <div class="row">
 
                     <div class="col-xs-12 col-sm-6 col-md-5 my-5">
@@ -858,7 +908,8 @@
                             <div class="d-flex flex-row-reverse ">
 
                                 <div class>
-                                    <button class='btn78 btn'>Read More About
+                                    <button class='btn78 btn' data-aos="fade-up"
+                                        data-aos-duration="1000">Read More About
                                         SAGE</button>
                                 </div>
 
@@ -887,7 +938,8 @@
 
                                                 <h2
                                                     style="font-size:50px;  font-weight: 700;">17
-                                                    years +</h2>
+                                                    +
+                                                    years </h2>
                                                 <p
                                                     style="font-size:20px;  font-weight: 500;">
                                                     of Education Experience
@@ -916,7 +968,7 @@
                                                 <br>
                                                 <h2
                                                     style="font-size:50px;  font-weight: 700;">
-                                                    50+
+                                                    50 +
                                                 </h4>
                                                 <p
                                                     style="font-size:20px;  font-weight: 500;">
@@ -934,7 +986,7 @@
 
                                                 <h2
                                                     style="font-size:50px;  font-weight: 700;">
-                                                    50+
+                                                    50 +
                                                 </h4>
                                                 <p
                                                     style="font-size:20px;  font-weight: 500;">
@@ -943,7 +995,7 @@
                                                 <br>
                                                 <h2
                                                     style="font-size:50px;  font-weight: 700;">
-                                                    75+
+                                                    75 +
                                                 </h4>
                                                 <p
                                                     style="font-size:20px;  font-weight: 500;">
@@ -956,7 +1008,7 @@
 
                                                 <h2
                                                     style="font-size:50px;  font-weight: 700;">
-                                                    50+
+                                                    50 +
                                                 </h4>
                                                 <p
                                                     style="font-size:20px;  font-weight: 500;">
@@ -1000,24 +1052,24 @@
 
                                 <div class="bg33"> <img
                                         class="lazy img-respopnsive"
-                                        src="imgs/t1.png"
+                                        src="imgs/t11.png"
                                         alt="Top University In Madhya Pradesh">
                                 </div>
 
                                 <div class="bg3334"><img
                                         class="lazy img-respopnsive"
-                                        src="imgs/t2.png"
+                                        src="imgs/t22.png"
                                         alt="Best University Bhopal">
                                 </div>
                                 <div class="bg343">
                                     <img class="lazy img-respopnsive"
-                                        src="imgs/t3.png"
+                                        src="imgs/t33.png"
                                         alt="University In Bhopal">
                                 </div>
 
                                 <div class="bg333"> <img
                                         class="lazy img-respopnsive"
-                                        src="imgs/t4.png"
+                                        src="imgs/t44.png"
                                         alt="SAGE University Bhopal">
                                 </div>
 
@@ -1026,47 +1078,1264 @@
                     </div>
 
                 </div>
-                <div className='marquee17'>
-                    <div class="row">
 
-                        <div class="col-xs-12 col-sm-2 navb23">
-                            <div className='navb435'>
-                                <a href
-                                    style="color:white;font-size:18px;">Academic
-                                    Tie up’s</a>
-                            </div>
+            </div>
+            <div class='marquee17'>
+                <div class="row">
 
-                        </div>
-
-                        <div class="col-xs-12 col-sm-10 navb71 ">
-
-                            <div class="marque ">
-                                <div
-                                    class="d-flex justify-content-around bgnh77">
-                                    <div class> <a href
-                                            class="botmu">iNurture</a></div>
-                                    <div class> <a href
-                                            class="botmu">Samatrix</a></div>
-                                    <div class> <a href
-                                            class="botmu">SEEKHO</a></div>
-                                    <div class> <a href
-                                            class="botmu">Sunstone</a></div>
-                                    <div class> <a href
-                                            class="botmu">Masai</a></div>
-                                </div>
-                                <div>
-
-                                </div>
-                            </div>
+                    <div class="col-xs-12 col-sm-2 navb23">
+                        <div class='navb435'>
+                            <a href
+                                style="color:white;font-size:18px;">Academic
+                                Tie up’s</a>
                         </div>
 
                     </div>
 
+                    <div class="col-xs-12 col-sm-10 navb71 ">
+
+                        <div class="marque ">
+                            <div
+                                class="d-flex justify-content-around bgnh77">
+                                <div class> <a href
+                                        class="botmu">iNurture</a></div>
+                                <div class> <a href
+                                        class="botmu">Samatrix</a></div>
+                                <div class> <a href
+                                        class="botmu">SEEKHO</a></div>
+                                <div class> <a href
+                                        class="botmu">Sunstone</a></div>
+                                <div class> <a href
+                                        class="botmu">Masai</a></div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class=" container-fluid bg8 ">
+            <div class="contents container">
+                <h4 class='awarde5 text-center'> Awards & Recognitions</h4>
+
+                <div id="myCarousel" class="carousel slide  carousel1"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner w-100 carousel-inner1">
+                        <div class="carousel-item carousel-item1 active">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-3">
+                                <div class=" advertisers-service-sec">
+                                    <div class="service-card">
+                                        <div class="i">
+                                            <img
+                                                src='./imgs/YOUNG-ENTREPRENEUR-AWARD.jpg'
+                                                class='imgaward' style="
+                                                width: 95%; margin-left:auto;  height: 250px; margin-right:auto; display: block" />
+                                        </div>
+                                        <h4 class='texttimes1'>Times Men of
+                                            the Year 2020 Award</h4>
+                                        <p class='textaward1'>Awarded for
+                                            “Young Entrepreneur” by Mrs.
+                                            Aishwarya Rai Bacchan. Award
+                                            received by respected Exe...</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"><i
+                                class="fa fa-arrow-left"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"><i
+                                class="fa fa-arrow-right"></i></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-
+        </section>
+        <div class="container-fluid bg7">
+            <div class="container  bhg7">
+                <h4 class='awarde5 text-center ' style="padding-top: 0px;"> MOUs
+                    & Tie Up</h4>
+                <div class="swiper-container two">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <div class='card111' style="
+                                background-color: white;
+                                box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                 height: 220px;
+                                border: none;
+                                border-radius:10px;
+                                padding:0px 0px 0px 0px;">
+                                    <img class="iomg" src="./imgs/BU.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <div class='card111' style="
+                            background-color: white;
+                            box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                             height: 220px;
+                            border: none;
+                            border-radius:10px;
+                            padding:0px 0px 0px 0px;">
+                                    <img class="iomg" src="./imgs/BU.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <div class='card111' style="
+                            background-color: white;
+                            box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                             height: 220px;
+                            border: none;
+                            border-radius:10px;
+                            padding:0px 0px 0px 0px;">
+                                    <img class="iomg" src="./imgs/BU.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <div class='card111' style="
+                            background-color: white;
+                            box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                             height: 220px;
+                            border: none;
+                            border-radius:10px;
+                            padding:0px 0px 0px 0px;">
+                                    <img class="iomg" src="./imgs/BU.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-image">
+                                <div class='card111' style="
+                            background-color: white;
+                            box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                             height: 220px;
+                            border: none;
+                            border-radius:10px;
+                            padding:0px 0px 0px 0px;">
+                                    <img class="iomg" src="./imgs/BU.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class='bhngh' data-aos="fade-up"
+                    data-aos-duration="1000" style="
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+              ">View More</button>
+            </div>
         </div>
-        <link rel="stylesheet" href="footer.css">
+
+        <section class=" container-fluid bg6 mb-5"
+            style="background-color: #e0dcdc54;padding:0px 0px;">
+            <div class="container">
+
+                <h4 class='awarde5 text-center '> Research & Innovation</h4>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="img-wrapper ">
+
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-"
+                                    src="./imgs/RI-1.png" />
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="img-wrapper">
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-"
+                                    src="./imgs/RI-2.png" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="img-wrapper">
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-  "
+                                    src="./imgs/reserchevents.png" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="img-wrapper">
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-"
+                                    src="./imgs/RI-5.png" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="img-wrapper">
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-"
+                                    src="./imgs/RI-3.png" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="img-wrapper">
+                            <div class="thumbnail">
+                                <div class='div1'>The hovered text!</div>
+                                <img class="imgh img64574 p-"
+                                    src="./imgs/ResearchUG.jpg" />
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="intro4  section4 container-fluid">
+            <div class="container">
+                <b class='eventer'>EVENTS</b>
+                <h4 class='awarde5' style="margin-top:-40px">Current Events</h4>
+                <div style="margin-left: -5px;"><button class='bhngh' style="
+                    margin-left: auto;margin-top:-90px;
+                    font-size: 17px;
+                    padding: 7px 30px;
+                    display: block;
+                  " href>View More</button></div>
+                <div class="wrapper my-5">
+                    <section class="columns">
+                        <div class="column">
+                            <div class="card" style="padding: 10px;"
+                                data-aos="fade-up"
+                                data-aos-duration="1000">
+                                <img src='imgs/559661.webp'
+                                    class='imgss34 imhf3' width="100%"
+                                   style=" object-fit: fit;  height:350px;" />
+                                <p class='event3 text-center my-4 mb-5'
+                                    style="font-size: 15px;font-weight: 600;">AIMUN
+                                </p>
+                                <button class='event4'
+                                    style=" background-color: #af1414;
+                            border: none;
+                            border-radius: 0px;
+                            padding: 9px 40px;color:white;">READ MORE</button>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card" style="padding: 10px;"
+                                data-aos="fade-up"
+                                data-aos-duration="2000">
+                                <img src='imgs/event1.webp'
+                                    class='imgss34 imhf3' width="100%"
+                                    height="300px" style=" object-fit: fit;  height:350px;" />
+                                <p class='event3 text-center my-4 mb-5'
+                                    style="font-size: 15px;font-weight: 600;">All
+                                    India Inter University E sports Tournament
+                                </p>
+                                <button class='event4'
+                                    style=" background-color: #af1414;
+                                border: none;
+                                border-radius: 0px;
+                                padding: 9px 40px;color:white;">READ
+                                    MORE</button>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card" style="padding: 10px;"
+                                data-aos="fade-up"
+                                data-aos-duration="3000">
+                                <img src='imgs/event2.webp'
+                                    class='imgss34 imhf3' width="100%"
+                                    height="300px" style=" object-fit: fit;  height:350px;" />
+                                <p class='event3 text-center my-4 mb-5'
+                                    style="font-size: 15px;font-weight: 600;">Students
+                                    Choice Awards 2024</p>
+                                <button class='event4'
+                                    style=" background-color: #af1414;
+                                border: none;
+                                border-radius: 0px;
+                                padding: 9px 40px;color:white;">READ
+                                    MORE</button>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid  gjhghg " style="background-color: #f0f2f691; padding: 30px 0px;">
+            <div class="container">
+               
+            <h4 class='awarde5 text-center'>Life at SUB University
+            </h4>
+            <hr></hr>
+
+            <section class="columns">
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                   <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/hostel.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>Hostels</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                   <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/canteen.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>Hygienic Canteens</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/campus-2.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>High Classrooms</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/sallon.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>Salon</h3></div>
+                </div>
+
+            </div>
+            </section>
+
+            <section class="columns">
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/gym.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>Gymnasium</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/library-img.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>Library</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/security.jpg" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>24x7 Security</h3></div>
+                </div>
+
+            </div>
+            <div class="column ">
+                <div class="card card75622  ">
+                <div class="why-batch1 text-white">
+                    <i class="fa fa-building why-batch" style="color: white; font-size: 30px;" ></i> 
+                </div>
+                <img src="./imgs/ambulance.png" class='imaget345 ' />
+
+                <div class='fdgf'> <h3 class='btn786'>campus Ambulance</h3></div>
+                </div>
+
+            </div>
+            </section>
+
+             
+                
+            </div>
+        </section>
+
+
+
+
+        <section class="container-fluid secti" style="background-color: #ffffff91; padding: 100px 0px 100px 0px;">
+            <div class=" container">
+                <h4 class='awarde5 text-center'>Our Students Placed Globally
+                </h4>
+                <div style="margin-top: -20px;" id="myCarousel" class="carousel slide  carousel1"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner w-100 carousel-inner1">
+                        <div class="carousel-item carousel-item1 active">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1 ">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/1.jpg' style=" width: 100%;" class="bg789"/>
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1 ">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/2.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/3.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/4.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/5.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                        <div class="col-md-2">
+                        <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/6.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1 ">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/1.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1 ">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/2.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/3.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/4.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/5.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item carousel-item1">
+                            <div class="col-md-2">
+                            <div class=" advertisers-service-sec2 p-1">
+                            <div class='card scholor-thumb'>
+                                <img src='imgs/6.jpg' style=" width: 100%;"  class="bg789" />
+                                <div class="scholor-name">
+                                    <h3 class='name4'>Yashswati</h3>
+                                    <p class='name45'>General Manager, USA</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                        
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button"
+                        data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                        aria-hidden="true"><i
+                        class="fa fa-arrow-left"></i></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                        data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                        aria-hidden="true"><i
+                        class="fa fa-arrow-right"></i></span>
+                        <span class="visually-hidden">Next</span>
+                        </button> -->
+                        
+        
+                </div>
+
+       <div class='bjg67 my-4' style="
+        border: 2px solid #d8d8d8; margin: 0px 3px;">
+      <div>
+        <section class="columns">
+	
+            <div class="column">
+                <section class="columns borer">
+
+                    <div class="column " >
+                      <div>
+                        <div class="d-flex justify-content-between ">
+                            <div></div>
+                            <div class=""> <button class="rounded-button mb-2" type="button" style=" width: 50px;
+                                height: 50px;
+                                background:#af1318;
+                                color: #ffffff;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                border-radius: 50%;
+                                border: none;
+                                text-decoration: none;
+                                transition: background 0.2s;">
+                                <i  class="fa fa-graduation-cap" style="font-size:24px;"
+                               ></i> 
+                            </button>
+                              </div>
+                             <div></div>
+                          </div>
+                        
+                        <h4 class="seth4grooming text-center " style="font-size: 25px; font-weight:600">
+                      35,000
+                        </h4>
+                        <p class="seth4grooming1 text-center"  style="font-size: 17px; font-weight:500" >
+                     Placement
+                        </p>
+                  
+                      </div>
+                    </div>
+                  
+                    <div class="column">
+                      <div>
+                  
+                        <div class="d-flex justify-content-between ">
+                            <div></div>
+                            <div class=""> <button class="rounded-button mb-2" type="button" style=" width: 50px;
+                                height: 50px;
+                                background:#af1318;
+                                color: #ffffff;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                border-radius: 50%;
+                                border: none;
+                                text-decoration: none;
+                                transition: background 0.2s;">
+                                <i  class="fa fa-building-o" style="font-size: 24px;"></i> 
+                            </button>
+                              </div>
+                             <div></div>
+                          </div>
+                        
+                        <h4 class="seth4grooming text-center"  style="font-size: 25px; font-weight:600" >
+                        30000
+                        </h4>
+                        <p class="seth4grooming1 text-center"  style="font-size: 17px; font-weight:500" >
+                        Company
+                        </p >
+                  
+                  
+                      </div>	</div>
+                  
+                    <div class="column">
+                      <div>
+                        <div class="d-flex justify-content-between ">
+                            <div></div>
+                            <div class=""> <button class="rounded-button mb-2" type="button" style=" width: 50px;
+                                height: 50px;
+                                background:#af1318;
+                                color: #ffffff;
+                                display: inline-flex;
+                                align-items: center;
+                                justify-content: center;
+                                cursor: pointer;
+                                border-radius: 50%;
+                                border: none;
+                                text-decoration: none;
+                                transition: background 0.2s;">
+                                <i  class='fa fa-users' style="font-size: 24px;"
+                               ></i> 
+                            </button>
+                              </div>
+                             <div></div>
+                          </div>
+                      
+                        <h4 class="seth4grooming text-center"  style="font-size: 25px; font-weight:600" >
+                      80000
+                        </h4>
+                        <p class="seth4grooming1 text-center"  style="font-size: 17px; font-weight:500" >
+                          Students
+                        </p>
+                  
+                  
+                      </div>	</div>
+                  
+                </section>
+            </div>
+            
+            <div class="column">
+                <div id="myCarousel" class="carousel slide container carousel1 my-2"
+                data-bs-ride="carousel">
+                <div class="carousel-inner w-100 carousel-inner1">
+                <div class="carousel-item carousel-item1 active">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l2.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l3.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l18.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l20.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l22.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-4">
+                    <div class=" p-2 ">
+                        <div class="card logosgdcard" >
+                            <img class="logosgd" src='recruiter/l23.png' />
+                          </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                    <div class="col-md-4">
+                        <div class=" p-2 ">
+                            <div class="card logosgdcard" >
+                                <img class="logosgd" src='recruiter/l46.png' />
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item carousel-item1">
+                    <div class="col-md-4">
+                        <div class=" p-2 ">
+                            <div class="card logosgdcard" >
+                                <img class="logosgd" src='recruiter/masai.webp' />
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item carousel-item1">
+                    <div class="col-md-4">
+                        <div class=" p-2 ">
+                            <div class="card logosgdcard" >
+                                <img class="logosgd" src='recruiter/MOU-LOGO.jpeg' />
+                              </div>
+                        </div>
+                    </div>
+                    </div>
+                   
+                
+                </div>
+                <!-- <button class="carousel-control-prev" type="button"
+                data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"
+                aria-hidden="true"><i
+                class="fa fa-arrow-left"></i></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"
+                data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"
+                aria-hidden="true"><i
+                class="fa fa-arrow-right"></i></span>
+                <span class="visually-hidden">Next</span>
+                </button> -->
+                
+                
+                </div>
+                
+            </div>
+          
+       
+        </section>	
+            
+      </div>
+      </div>
+            </div>
+          </section>
+
+
+          <section class="container-fluid bg66 " style="background-color: #f0f2f691; padding: 0px 0px; margin-bottom: -30px;">
+            <div class="container">
+               
+            <h4 class='awarde5 text-center'>Testimonials
+            </h4>
+            <hr></hr>
+
+            <div id="myCarousel" class="carousel slide container carousel1 my-2"
+            data-bs-ride="carousel">
+            <div class="carousel-inner w-100 carousel-inner1">
+            <div class="carousel-item carousel-item1 active">
+            <div class="col-md-6">
+                <div class=" p-2 ">
+                    <div class="row"> 
+                        <div class='rotu6'>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="box">
+                                
+                                <i class='fa fa-rocket recket'></i>
+                                <img src='imgs/palak.jpg' class='textimoniala' />
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 ">
+                            <div class="box56">
+                                <h2 style="font-weight: 600">Palak Verma (Student)</h2>
+                                <p style="font-size: 17px" class='p90998'>"Palak Verma, school of management at SAGE University Bhopal, known as one of the best universities in MP, Central India, shared her phenomenal academi"</p>
+                            </div>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item carousel-item1">
+            <div class="col-md-6">
+                <div class=" p-2 ">
+                    <div class="row"> 
+                        <div class='rotu6'>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="box">
+                                <i class='fa fa-rocket recket'></i>
+                                <img src='imgs/anu.png' class='textimoniala' />
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 ">
+                            <div class="box56">
+                                <h2 style="font-weight: 600">Swami Anubhavananda</h2>
+                                <p style="font-size: 17px" class='p90998'>"Sage University is Going To be a Centre Of Attraction & Energy In Top University in Central India."</p>
+                            </div>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+            <div class="carousel-item carousel-item1">
+            <div class="col-md-6">
+                <div class=" p-2 ">
+                    <div class="row"> 
+                        <div class='rotu6'>
+
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="box">
+                                <i class='fa fa-rocket recket'></i>
+                                <img src='imgs/ramdev.png' class='textimoniala' />
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 ">
+                            <div class="box56">
+                                <h2 style="font-weight: 600">Baba Ramdev Ji</h2>
+                                <p style="font-size: 17px" class='p90998'>" After Visiting Sage University (Private University in Bhopal) I am thinking of opening my ashram here in the campus such a peaceful place."</p>
+                            </div>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="carousel-item carousel-item1">
+                <div class="col-md-6">
+                    <div class=" p-2 ">
+                        <div class="row"> 
+                            <div class='rotu6'>
+    
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="box">
+                                    <i class='fa fa-rocket recket'></i>
+                                    <img src='imgs/palak.jpg' class='textimoniala' />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 ">
+                                <div class="box56">
+                                    <h2 style="font-weight: 600">Palak Verma (Student)</h2>
+                                    <p style="font-size: 17px" class='p90998'>"Palak Verma, school of management at SAGE University Bhopal, known as one of the best universities in MP, Central India, shared her phenomenal academi"</p>
+                                </div>
+                            </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-6">
+                    <div class=" p-2 ">
+                        <div class="row"> 
+                            <div class='rotu6'>
+    
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="box">
+                                    <i class='fa fa-rocket recket'></i>
+                                    <img src='imgs/anu.png' class='textimoniala' />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 ">
+                                <div class="box56">
+                                    <h2 style="font-weight: 600">Swami Anubhavananda</h2>
+                                    <p style="font-size: 17px" class='p90998'>"Sage University is Going To be a Centre Of Attraction & Energy In Top University in Central India."</p>
+                                </div>
+                            </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item carousel-item1">
+                <div class="col-md-6">
+                    <div class=" p-2 ">
+                        <div class="row"> 
+                            <div class='rotu6'>
+    
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="box">
+                                    <i class='fa fa-rocket recket'></i>
+                                    <img src='imgs/ramdev.png' class='textimoniala' />
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 ">
+                                <div class="box56">
+                                    <h2 style="font-weight: 600">Baba Ramdev Ji</h2>
+                                    <p style="font-size: 17px" class='p90998'>" After Visiting Sage University (Private University in Bhopal) I am thinking of opening my ashram here in the campus such a peaceful place."</p>
+                                </div>
+                            </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+            <!-- <button class="carousel-control-prev" type="button"
+            data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"
+            aria-hidden="true"><i
+            class="fa fa-arrow-left"></i></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+            data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"
+            aria-hidden="true"><i
+            class="fa fa-arrow-right"></i></span>
+            <span class="visually-hidden">Next</span>
+            </button> -->
+            
+            
+            </div>
+            
+
+             
+                
+            </div>
+        </section>
         <div id="ee-floating-control-container-ee-form-4-form-4"
             class="ee-floating-control-container custom-floating-control-container right">
             <button id="ee-floating-control-button-form-4-applyNow"
@@ -1212,7 +2481,7 @@
                 </footer>
             </div>
             <div class>
-                <div class='marquee11'>
+          <div class='marquee11'>
                     <div class="row">
 
                         <div class="col-xs-12 col-sm-2 navb232">
@@ -1248,39 +2517,15 @@
                 </div>
             </div>
         </div>
-        <!-- <?php include 'comm/footer.php' ?> -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous">
-    </script>
-        <script>
-    const sidebar = document.getElementById("sidebar");
-    const menuButton = document.getElementById("menu-button");
-    const closeButton = document.getElementById("close-button");
+     
+<script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js">
 
-    function openMenu() {
-        sidebar.style.display = "flex";
-        sidebar.style.animation = "";
-        sidebar.style.animation = "sidebarIn 1s 0s forwards";
-    }
+        </script>
+        
 
-    function closeMenu() {
-        sidebar.style.animation = "";
-        sidebar.style.animation = "sidebarOut 1s 0s forwards";
-        setTimeout(close, 1200);
-    }
 
-    function close() {
-        sidebar.style.display = "none";
-    }
 
-    menuButton.addEventListener("click", openMenu);
-    closeButton.addEventListener("click", closeMenu);
-    </script>
-        <script>
-    AOS.init();
-    </script>
     </body>
 
 </html>

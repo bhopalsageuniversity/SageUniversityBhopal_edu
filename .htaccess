@@ -1,0 +1,23 @@
+
+# RewriteEngine On
+# RewriteRule ^aboutus/?$ aboutus/about.php [NC,L]
+
+
+# RewriteRule ^sageuniversity/?$ sageuniversity/p/index1.php [NC,L]
+
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+# Redirect main page to root directory
+
+
+# Rewrite URLs to remove index.php
+
+
+
+# RewriteRule ^index\.php$ /sageuniversity/ [R=301,L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ /sageuniversity/index.php/$1 [L]
