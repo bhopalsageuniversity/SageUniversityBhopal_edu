@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-9 navb1">
-                    <div class="dropdown desktop2">
+                    <div class="dropdown desktop2 drpmobile">
                         <a class=" bgb" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                             aria-expanded="false">
 
@@ -63,11 +63,11 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Student Login</a></li>
+                            <li><a class="dropdown-item drop111" href="#">Student Login</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Staff Login</a></li>
+                            <li><a class="dropdown-item drop111" href="#">Staff Login</a></li>
                         </ul>
                     </div>
                     <div class="d-flex flex-row-reverse desktop1 ">
@@ -94,11 +94,11 @@
                                     ERP
                                 </a>
                                 <ul class="dropdown-menu menu66">
-                                    <li><a class="dropdown-item" href="#">Student Login</a></li>
+                                    <li><a class="dropdown-item " href="#">Student Login</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Staff Login</a></li>
+                                    <li><a class="dropdown-item " href="#">Staff Login</a></li>
                                 </ul>
                             </div>
 
