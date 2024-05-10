@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+
+
+}
+
+@media (max-width: 480px) {
+    .eventer{
+        font-size: 2px !important;
+    }
+    .bgimg {
+        background-image: url(imgs/slider_bg.png);
+        background-size: cover;
+        background-position: center;
+        padding: 150px 20px 0px !important;
+    }
+    .text2 {
+        font-size: 30px !important;
+       text-align: center !important;
+    }
+    .text34{
+        text-align: center !important;
+    }
+.bhngh{
+margin-left: auto !important;
+margin-right: auto !important;
+display: block !important;
+
+    }
+}
